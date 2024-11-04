@@ -1,0 +1,130 @@
+body{
+    background: #132431;
+    margin: 0;
+}
+header{
+    height: 80px;
+    background: #0f171e;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0 10px;
+}
+header img{
+    width: 15%;
+}
+header ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s all;
+
+}
+header ul li a:hover{
+    color: #0799cf;
+    border: 2px dotted #0799cf;
+    padding: 10px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+margin-top: 100px;
+}
+.top .adjust{
+    background: rgb(116, 140, 150);
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    margin:15px 0 ;
+}
+.top .adjust img{
+    position: absolute;
+    width: 150px;
+    background-position: center;
+    border-radius: 50%;
+    background-size: contain;
+}
+.top h1{
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.top input[type="text"]{
+    margin: 20px;
+    height: 30px;
+    width:425px;
+    background-color: #0f171e;
+    border:1px solid #4e585c ;
+    font-size: 15px;
+    padding: 5px;
+}
+.top input[type="text"]:focus{
+    border: 2px solid #0799cf;
+    color:white;
+}
+.top label{
+    color: #4e585c;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom .left{
+    display: flex;
+    flex-direction: column;
+}
+.bottom .left h3{
+    color: #f2f2f2;
+    margin: 10px 0 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom .left label{
+    color: #8197a4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom .right{
+    width: 10%;
+}
+.bottom input[type="checkbox"]{
+    width: 30px;
+    height: 40px;
+    margin-left: 120px;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #0f171e;
+
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    padding: 10px;
+ 
+    height: 40px;
+    justify-content: space-between;
+}
+footer ul li{
+    color: #0799cf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
